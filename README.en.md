@@ -46,7 +46,7 @@ You want "general good writing." This skill has a stance—it will **reject**「
 In Claude Code, Codex, WorkBuddy, or OpenClaw, simply say:
 
 ```
-Install this skill: https://github.com/vickyyanruoxi/vicky-skills/tree/main/vicky-writer
+Install this skill: https://github.com/vickywenqi/vicky-skills/tree/main/vicky-writer
 ```
 
 The Agent will clone it to the appropriate directory automatically.
@@ -55,15 +55,15 @@ The Agent will clone it to the appropriate directory automatically.
 
 | Platform | Command |
 |----------|---------|
-| **Claude Code** | `/plugin marketplace add vickyyanruoxi/vicky-skills` → `/plugin install vicky-writer` |
-| **Codex** | `$skill-installer install https://github.com/vickyyanruoxi/vicky-skills/tree/main/vicky-writer` |
-| **WorkBuddy** | Type in chat: `帮我安装 https://github.com/vickyyanruoxi/vicky-skills/tree/main/vicky-writer` |
+| **Claude Code** | `/plugin marketplace add vickywenqi/vicky-skills` → `/plugin install vicky-writer` |
+| **Codex** | `$skill-installer install https://github.com/vickywenqi/vicky-skills/tree/main/vicky-writer` |
+| **WorkBuddy** | Type in chat: `帮我安装 https://github.com/vickywenqi/vicky-skills/tree/main/vicky-writer` |
 | **OpenClaw** | `openclaw skill install vicky-writer` or give the Agent the GitHub link above |
 
 ### Manual installation
 
 ```bash
-git clone https://github.com/vickyyanruoxi/vicky-skills.git
+git clone https://github.com/vickywenqi/vicky-skills.git
 cp -r vicky-skills/vicky-writer ~/.claude/skills/vicky-writer      # Claude Code
 cp -r vicky-skills/vicky-writer ~/.workbuddy/skills/vicky-writer    # WorkBuddy
 ```

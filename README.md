@@ -46,7 +46,7 @@
 在 Claude Code、Codex、WorkBuddy、OpenClaw 里，直接说：
 
 ```
-帮我安装这个 skill：https://github.com/vickyyanruoxi/vicky-skills/tree/main/vicky-writer
+帮我安装这个 skill：https://github.com/vickywenqi/vicky-skills/tree/main/vicky-writer
 ```
 
 Agent 会自己 clone 到对应目录，不用你操心路径。
@@ -55,15 +55,15 @@ Agent 会自己 clone 到对应目录，不用你操心路径。
 
 | 平台 | 命令 |
 |------|------|
-| **Claude Code** | `/plugin marketplace add vickyyanruoxi/vicky-skills` → `/plugin install vicky-writer` |
-| **Codex** | `$skill-installer install https://github.com/vickyyanruoxi/vicky-skills/tree/main/vicky-writer` |
-| **WorkBuddy** | 在对话中输入：`帮我安装 https://github.com/vickyyanruoxi/vicky-skills/tree/main/vicky-writer` |
+| **Claude Code** | `/plugin marketplace add vickywenqi/vicky-skills` → `/plugin install vicky-writer` |
+| **Codex** | `$skill-installer install https://github.com/vickywenqi/vicky-skills/tree/main/vicky-writer` |
+| **WorkBuddy** | 在对话中输入：`帮我安装 https://github.com/vickywenqi/vicky-skills/tree/main/vicky-writer` |
 | **OpenClaw** | `openclaw skill install vicky-writer` 或直接告诉 Agent 上面的 GitHub 链接 |
 
 ### 手动安装
 
 ```bash
-git clone https://github.com/vickyyanruoxi/vicky-skills.git
+git clone https://github.com/vickywenqi/vicky-skills.git
 cp -r vicky-skills/vicky-writer ~/.claude/skills/vicky-writer      # Claude Code
 cp -r vicky-skills/vicky-writer ~/.workbuddy/skills/vicky-writer    # WorkBuddy
 ```
