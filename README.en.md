@@ -32,8 +32,7 @@ You want "general good writing." This skill has a stance—it will **reject**「
 - 60+ forbidden rules（Avoid AI tone, formal language, preachy golden quotes）
 - 8 viral title techniques + multiple title structure references
 - 8 viral article framework types, trending-topic openings, event-chain-driven cases, golden-quote endings
-- Yizhuan detection（Originality>75% + sensitive word avoidance）
-- Zhuque AI detection avoidance rules（AIGC score<0.5）
+- Yizhuan originality detection（Originality>75% + sensitive word avoidance）+ Zhuque AI detection avoidance rules（AIGC score<0.5）
 
 → [SKILL.md](./vicky-writer/SKILL.md)
 
