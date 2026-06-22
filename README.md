@@ -40,35 +40,30 @@
 
 ## 📦 安装
 
-### 通用方式（适用于所有支持 Skill 的 Agent）
+### 一句话安装（推荐）
 
-在 Claude Code、Codex、WorkBuddy、OpenClaw 里，直接说：
+打开你的 AI Agent（WorkBuddy / Codex / Claude Code / OpenClaw），直接把这句话发给它：
 
 ```
 帮我安装这个 skill：https://github.com/vickywenqi/vicky-skills/tree/main/vicky-writer
 ```
 
-Agent 会自己 clone 到对应目录，不用你操心路径。
+Agent 会自动下载安装，你不用做任何操作。
 
-### 各平台详细方式
-
-| 平台 | 命令 |
-|------|------|
-| **Claude Code** | `/plugin marketplace add vickywenqi/vicky-skills` → `/plugin install vicky-writer` |
-| **Codex** | `$skill-installer install https://github.com/vickywenqi/vicky-skills/tree/main/vicky-writer` |
-| **WorkBuddy** | 在对话中输入：`帮我安装 https://github.com/vickywenqi/vicky-skills/tree/main/vicky-writer` |
-| **OpenClaw** | `openclaw skill install vicky-writer` 或直接告诉 Agent 上面的 GitHub 链接 |
-
-> 🇨🇳 **国内用户**：如果GitHub访问慢，可用Gitee镜像：`https://gitee.com/vickywenqi/vicky-skills`
-> 将上方命令中的 `github.com/vickywenqi/vicky-skills` 替换为 `gitee.com/vickywenqi/vicky-skills` 即可。
+> 🇨🇳 **国内用户**：把上面链接里的 `github.com` 换成 `gitee.com` 即可加速：
+> `https://gitee.com/vickywenqi/vicky-skills/tree/main/vicky-writer`
 
 ### 手动安装
 
-```bash
-git clone https://github.com/vickywenqi/vicky-skills.git
-cp -r vicky-skills/vicky-writer ~/.claude/skills/vicky-writer      # Claude Code
-cp -r vicky-skills/vicky-writer ~/.workbuddy/skills/vicky-writer    # WorkBuddy
-```
+如果一键安装不成功，也可以手动：
+
+1. 下载 zip 包（GitHub 页面点 Code → Download ZIP，或找作者要）
+2. 解压后把 `vicky-writer` 文件夹放到你 AI Agent 的 skills 目录：
+   - **WorkBuddy**：`~/.workbuddy/skills/vicky-writer/`
+   - **Codex**：`~/.codex/skills/vicky-writer/`
+   - **Claude Code**：`~/.claude/skills/vicky-writer/`
+   - **OpenClaw**：工作区 `skills/vicky-writer/`
+3. 重启 Agent，输入 `/skills` 查看是否安装成功
 
 ---
 
