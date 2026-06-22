@@ -59,6 +59,9 @@ Agent 会自己 clone 到对应目录，不用你操心路径。
 | **WorkBuddy** | 在对话中输入：`帮我安装 https://github.com/vickywenqi/vicky-skills/tree/main/vicky-writer` |
 | **OpenClaw** | `openclaw skill install vicky-writer` 或直接告诉 Agent 上面的 GitHub 链接 |
 
+> 🇨🇳 **国内用户**：如果GitHub访问慢，可用Gitee镜像：`https://gitee.com/vickywenqi/vicky-skills`
+> 将上方命令中的 `github.com/vickywenqi/vicky-skills` 替换为 `gitee.com/vickywenqi/vicky-skills` 即可。
+
 ### 手动安装
 
 ```bash
